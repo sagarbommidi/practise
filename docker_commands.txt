@@ -1,0 +1,20 @@
+Docker Commands
+
+# Create a sh file to have a script for running services manually add this script in image, as an entry point
+
+ADD run.sh /opt/run.sh
+RUN sudo chmod 755 /opt/run.sh
+CMD ["/opt/run.sh"]
+
+# Replace a text in a file as below
+RUN sed -i "s/before_text/after_text/" <path-to-file-in-container>
+
+# Expose the ports from container to outside 
+EXPOSE 80 8080 3000 5000
+
+# Define mountable directories. These directories will be available even the containers are deleted also.
+VOLUME [ "/data", "/var/lib/mysql" ]
+
+
+# Setting ENV variables
+ENV DB_PASSWORD secret_pwd
