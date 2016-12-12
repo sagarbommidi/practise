@@ -9,8 +9,8 @@ def bubble_sort(arr)
     end
     break if swapped == false
   end
-  puts arr.join(', ')
 end
 
 a = [1, 4, 6, 9, 2, 5, 7, 3, 8]
 bubble_sort(a)
+puts a.join(', ')
