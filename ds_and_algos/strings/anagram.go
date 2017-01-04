@@ -10,13 +10,6 @@ func strToMap(str string) map[byte]int {
 	return strMap
 
 }
-func diffOfNums(n1, n2 int) int {
-	if(n1 >= n2) {
-		return (n1 - n2)
-	} else {
-		return (n2 - n1)
-	}
-}
 func changeCountToMakeAnagram(str string) int {
 	changeCount := 0
 	size := len(str)
@@ -26,9 +19,12 @@ func changeCountToMakeAnagram(str string) int {
 	str1Map := strToMap(str[:(size/2)])
 	str2Map := strToMap(str[(size/2):])
 	var diff int
+
 	for key, val := range str2Map {
-		diff = diffOfNums(val, str1Map[key])
-		changeCount += diff
+		diff = val - str1Map[key]
+		if(diff > 0) {
+			changeCount += diff
+		}
 	}
 	return changeCount
 }

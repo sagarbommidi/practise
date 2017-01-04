@@ -15,6 +15,6 @@ func countWords(str string) int{
 func main() {
 	var input string
 	_, _ = fmt.Scan(&input)
-	input := "saveChangesInTheEditor"
+	//input := "saveChangesInTheEditor"
 	fmt.Println(countWords(input))
 }
