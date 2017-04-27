@@ -1,0 +1,11 @@
+1. Storage Organization (Static segment, Heap segment, Stack segment)
+2. Static Binding, Dynamic Binding
+3. Pass by Value, Pass by Reference
+4. Scope (Static scope, Dynamic scope)
+5. Asymptotic Analysis
+6. Backtracking method
+7. Bruit Force method
+8. Devide and conquire mechanism
+9. Recusssion
+10. Greedy Algorithm
+11. Dynamic Programming

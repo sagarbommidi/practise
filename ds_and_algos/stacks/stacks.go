@@ -32,6 +32,7 @@ func (s *Stack) Push(data interface{}) {
 	s.Size += 1
 	if(s.Top == nil) {
 		s.Top = &node
+		return
 	}
 	node.Next = s.Top
 	s.Top = &node

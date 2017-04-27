@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;ds_and_algos&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/config" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/bitbucket.org" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/configaaa" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/ciblentWebsiteService" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/fullmetalgo" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/bignummath" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/Go-Collections" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/config" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/bitbucket.org" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/configaaa" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/ciblentWebsiteService" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/fullmetalgo" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/bignummath" />
+      <root url="file://$PROJECT_DIR$/../../go_lang/src/Go-Collections" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
